@@ -2,6 +2,6 @@
 
 * [0](README.md)
 * [Глава 1](glava_1.md)
-   * Компиляторы
+   * [Компиляторы](kompilyatori.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 
