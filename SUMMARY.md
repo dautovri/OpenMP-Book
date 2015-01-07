@@ -4,5 +4,4 @@
 * [Глава 1](glava_1.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
-* [Типичные ошибки](tipichnie_oshibki.md)
 
