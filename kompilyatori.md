@@ -1,8 +1,12 @@
 # Компиляторы
 
 На данный момент основые компиляторы которые ведут поддрежку последних стандартов OpenMP.
-    1. [GNU GCC](https://ru.wikipedia.org/wiki/GNU_Compiler_Collection)
-    2. [Intel Composer C++](https://ru.wikipedia.org/wiki/Intel_Parallel_Composer)
+
+[GNU GCC](https://ru.wikipedia.org/wiki/GNU_Compiler_Collection)
+
+[Intel Composer C++](https://ru.wikipedia.org/wiki/Intel_Parallel_Composer)
+
+Компилятор, который входит в состав [Microsoft Visual Studio](https://ru.wikipedia.org/wiki/Visual_Studio), поддерживает стандарт версии OpenMP 2.0. 
 
 
-
+С полным списком компиляторов, которые поддерживают данную технологию вы можете ознакомится на [официальной странице OpenMP ARB](http://openmp.org/wp/openmp-compilers/). 
