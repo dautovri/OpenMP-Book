@@ -10,3 +10,20 @@
 
 
 С полным списком компиляторов, которые поддерживают данную технологию вы можете ознакомится на [официальной странице OpenMP ARB](http://openmp.org/wp/openmp-compilers/). 
+
+
+
+```
+#include <iostream>
+#include "omp.h"
+
+int main()
+{
+    #pragma omp parallel
+    {
+        std::cout << ”Hello World\n”
+    }
+ return 0;
+}
+
+```
