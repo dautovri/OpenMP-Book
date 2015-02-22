@@ -4,4 +4,5 @@
 * [Глава 1](glava_1.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
+   * Почему OpenMp
 
