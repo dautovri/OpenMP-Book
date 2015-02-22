@@ -2,6 +2,7 @@
 
 [![Join the chat at https://gitter.im/dautov2/OpenMP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dautov2/OpenMP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+http://dautov2.gitbooks.io/openmp/
 
 
 Открытая книга по технологии OpenMP. Технология которая позволяет расспараллеливать программы хирургическим способом не перестраивая архитектуру всего приложения, а расспареллелив только лишь высоконагруженные циклы и тяжелые задачи. Данная книга открыта для новых авторов. Мы не будем закрывать ее написание. Мы не станем требовать плату. Мы будем делать ее вместе.
