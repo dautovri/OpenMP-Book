@@ -1,11 +1,11 @@
 #OpenMP
 
-Тут живое обсуждение книги и рабочие переговоры создателей.
+Тут живое обсуждение книги.
 
 [![Join the chat at https://gitter.im/dautov2/OpenMP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dautov2/OpenMP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-По адресу ниже вы можете прочитать книгу онлайн или скачать удобную для вас версию(pdf,epub,MOBI)
+По адресу ниже вы можете прочитать книгу онлайн или скачать удобную для вас версию(pdf, epub, MOBI)
 
 http://dautov2.gitbooks.io/openmp/
 
