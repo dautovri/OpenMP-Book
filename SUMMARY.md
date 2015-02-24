@@ -5,4 +5,5 @@
    * [Почему OpenMP ?](pochemu_openmp.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
+* Типичные ошибки
 
