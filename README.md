@@ -1,5 +1,7 @@
 #OpenMP
 
+Тут живое обсуждение книги и рабочие переговоры создателей.
+
 [![Join the chat at https://gitter.im/dautov2/OpenMP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dautov2/OpenMP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
