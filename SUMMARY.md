@@ -6,4 +6,5 @@
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
+* Поддержать проект 
 
