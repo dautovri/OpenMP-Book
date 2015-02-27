@@ -4,6 +4,10 @@
 
 [![Join the chat at https://gitter.im/dautov2/OpenMP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dautov2/OpenMP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=410012509567596&quickpay=small&any-card-payment-type=on&button-text=06&button-size=s&button-color=white&targets=%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0+OpenMP&default-sum=100&successURL=" width="146" height="31"></iframe>
+
+<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=410012509567596&quickpay=small&yamoney-payment-type=on&button-text=06&button-size=s&button-color=white&targets=%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0+OpenMP&default-sum=100&successURL=" width="146" height="31"></iframe>
+
 
 По адресу ниже вы можете прочитать книгу онлайн или скачать удобную для вас версию(pdf, epub, MOBI)
 
