@@ -7,16 +7,11 @@
 
 О выходе нового стандарта тогда написали в New York Times.
 
-NEW STANDARD FOR PARALLEL PROCESSING WORKSTATIONS
+НОВЫЙ СТАНДАРТ ДЛЯ ПАРАЛЕЛЬНЫХ ВЫЧИСЛЕНИЙ 
 
-Compaq, Digital, Intel, IBM and Silicon Graphics have agreed to
-support OpenMP, a new standard developed by Silicon Graphics and
-Kuck & Associates to allow programmers to write a single version
-of their software that will run on parallel processor computers
-using Unix or Windows NT operating systems. The new standard willxvi Foreword
-hasten the trend in which scientists and engineers choose high-end
-workstations rather than supercomputers for complex computational
-applications. (28 Oct. 1997)
+Compaq, Digital, Intel, IBM и Silicon Graphics договорились о поддержке стандарта OpenMP, новый стандарт, разработанный Silicon Graphics и
+Kuck & Associates.Он позволяет программистам писать одну версию
+их программного обеспечения, которое будет работать на параллельных вычислительных комплексах с использованием операционных систем Unix или Windows NT. Новый стандарт ускорит тенденцию, при которой ученые и инженеры будут выбирать рабочие станций, а не суперкомпьютеры для сложных вычислительных приложений. (28 Окт. 1997)
 
 
 ###Разработчики
