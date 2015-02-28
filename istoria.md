@@ -5,6 +5,19 @@
 
 В 28 октября 1997 года был разработан окончательно индустриальный стандарт: OpenMP (Open Multi Processing) . Его сразу же поддержали все ведущие производители  Intel, HP, IBM, SUN, Copmpaq и другие. 
 
+О выходе нового стандарта тогда написали в New York Times.
+
+NEW STANDARD FOR PARALLEL PROCESSING WORKSTATIONS
+
+Compaq, Digital, Intel, IBM and Silicon Graphics have agreed to
+support OpenMP, a new standard developed by Silicon Graphics and
+Kuck & Associates to allow programmers to write a single version
+of their software that will run on parallel processor computers
+using Unix or Windows NT operating systems. The new standard willxvi Foreword
+hasten the trend in which scientists and engineers choose high-end
+workstations rather than supercomputers for complex computational
+applications. (28 Oct. 1997)
+
 
 ###Разработчики
 Разработку спецификации ведут несколько крупных производителей вычислительной техники и программного обеспечения. Эта работа регулируется некоммерческой организацией, называемой OpenMP Architecture Review Board (ARB). 
