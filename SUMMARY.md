@@ -5,7 +5,7 @@
    * [Начало](nachalo.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
+* [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Поддержать проект](podderzhat_proekt.md)
-* [Размещение потоков](razmeschenie_potokov.md)
 
