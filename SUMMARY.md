@@ -7,5 +7,5 @@
    * [Компиляторы](kompilyatori.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Поддержать проект](podderzhat_proekt.md)
-* Размещение потоков
+* [Размещение потоков](razmeschenie_potokov.md)
 
