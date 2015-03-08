@@ -36,4 +36,5 @@ GCC:	**-fopenmp**
 Intel:	**-openmp**
 
 Microsoft VC++:  **/openmp**
+
 ![](OpenMPSetting.png)
