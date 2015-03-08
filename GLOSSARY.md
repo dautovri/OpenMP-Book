@@ -1,3 +1,5 @@
+# Glossary
+
 ## PCF
 
 Parallel Computing Forum 
@@ -5,3 +7,6 @@ Parallel Computing Forum
 ## ARB
 
 The OpenMP Architecture Review Board
+
+## SMP
+
