@@ -29,3 +29,11 @@ int main()
 }
 
 ```
+Данный код должен быть скомпилирован с определенными ключами компилятора.
+
+GCC:	**-fopenmp**	
+
+Intel:	**-openmp**
+
+Microsoft VC++:  **/openmp**
+![](OpenMPSetting.png)
