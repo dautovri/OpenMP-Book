@@ -37,6 +37,6 @@ Intel:	**-openmp**
 
 Microsoft VC++:  **/openmp**
 
-В Visual Studio вы можете влючить опцию из в настройках проекта. 
+В Visual Studio вы можете влючить опцию  в настройках проекта. 
 
 ![](OpenMPSetting.png)
