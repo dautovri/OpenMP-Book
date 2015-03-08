@@ -37,4 +37,3 @@ Intel:	**-openmp**
 
 Microsoft VC++:  **/openmp**
 
-![](OpenMPSetting.png)
