@@ -47,4 +47,17 @@ set OMP_DISPLAY_ENV=true
 Пример.
 Как распределить потоки внешнего цикла равномерно между всеми физическими ядрами, а потоки внутренего цикла последовательно друг за другом?
 
+```
+#pragma omp parallel proc_bind(spread)
+{
+    #pragma omp parallel proc_bind(close)
+    {
+    
+    ....
+    }
+
+}
+
+```
+
 
