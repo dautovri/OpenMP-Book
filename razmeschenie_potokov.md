@@ -16,9 +16,10 @@
 
 Переменные окружения 
 
-export OMP_PROC_BIND=
+export OMP_PROC_BIND= "spread"
+export OMP_PROC_BIND= "close"
+export OMP_PROC_BIND= "master"
 
-export OMP_PLACES=
-
+export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"
 ```
 
