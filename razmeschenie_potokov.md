@@ -9,7 +9,7 @@
 
 * spread - распределить потоки равномерно
 * close - 
-
+* master - размещать потоки как можно ближе к мастер потоку
 
 ```
 #pragma omp parallel proc_bind(spread)
@@ -17,15 +17,28 @@
 #pragma omp parallel proc_bind(close)
 
 #pragma omp parallel proc_bind(master)
+```
 
 
 Переменные окружения 
+```
 
 export OMP_PROC_BIND= "spread"
 export OMP_PROC_BIND= "close"
 export OMP_PROC_BIND= "master"
+export OMP_PROC_BIND= "true"
+export OMP_PROC_BIND= "false"
 
-export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"
+export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"```
+
+
+
+Заметье, когда мы устанавливаем политику размещения через переменные окружения у нас появляются еще два варианта это true и false.
+
+Понимаю, что возможно это покажется сложным и захочется отдать отвественность за размещение настройкам по умолчанию. Поэтому заранее установите следующую переменную окружения.
+
+```
+set OMP_DISPLAY_ENV=true
 ```
 
-
+Установив ее на true, программа выведет все переменные окружения.
