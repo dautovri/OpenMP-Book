@@ -13,8 +13,9 @@
 
 #pragma omp parallel proc_bind(master)
 
+export OMP_PROC_BIND=
 
-
+export OMP_PLACES=
 
 ```
 
