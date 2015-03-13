@@ -6,5 +6,14 @@
 
 Теперь же стандартизирована политика размещения потоков. Как размещать потоки мы может указать в коде или же через переменные окружения.
 
- 
+```
+#pragma omp parallel proc_bind(spread)
+
+#pragma omp parallel proc_bind(close)
+
+#pragma omp parallel proc_bind(master)
+
+
+
+```
 
