@@ -40,19 +40,36 @@ export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"```
 Прежде чем принимать решение мы должны узнать о топологии нашего оборудования. 
 
 ```
-lscpu 
-
-
-
-
+rus@ubuntu:~$ lscpu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 58
+Stepping:              9
+CPU MHz:               2793.665
+BogoMIPS:              5587.33
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              3072K
+NUMA node0 CPU(s):     0,1
+```
+Так же можно с помощью утилиты hwloc графически увидеть вашу архитектуру.
+```
+rus@ubuntu:~$ sudo apt-get install hwloc
+rus@ubuntu:~$ lstopo
 ```
 
-
-
-```
-sudo apt-get install hwloc
-lstopo
-```
 
 Вначале мы должны увидеть настройки по умолчанию и архитектуру имеющегося у нас оборудования. Поэтому заранее установите следующую переменную окружения.
 
