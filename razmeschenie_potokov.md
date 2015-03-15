@@ -35,9 +35,6 @@ master - размещать потоки на том же месте где и �
 ![](master.png)
 
 
-
-
-
 ```
 export OMP_PROC_BIND= "true"
 export OMP_PROC_BIND= "false"
