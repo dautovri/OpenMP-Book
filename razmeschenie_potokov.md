@@ -108,6 +108,6 @@ set OMP_DISPLAY_ENV=true
 
 ```
 А вот как это будет работать.
-![](threadaffex.png)
+
 
  
