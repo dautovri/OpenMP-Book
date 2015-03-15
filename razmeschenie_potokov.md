@@ -12,35 +12,42 @@
 Теперь же стандартизирована политика размещения потоков. Как размещать потоки мы можем указать в коде или же через переменные окружения.
 Существует на данный момент три политики размещения.
 
-* spread - распределить потоки равномерно. Политика обеспечивает лучший доступ аппаратным ресурсам.
+```
+export OMP_PROC_BIND= "spread"
+#pragma omp parallel proc_bind(spread)
+```
+spread - распределить потоки равномерно. Политика обеспечивает лучший доступ аппаратным ресурсам.
 ![](spread.png)
+```
+export OMP_PROC_BIND= "close"
+#pragma omp parallel proc_bind(close)
+```
 
-* close -  размещать потоки последовательно как можно ближе к мастер потоку. Используется если желательно совместное использование ресурсов потоками.
 
-* master - размещать потоки на том же месте где и мастер поток. Обеспечивает близость к мастер потоку
 
+
+
+```
+export OMP_PROC_BIND= "master"
+#pragma omp parallel proc_bind(master)
+```
+master - размещать потоки на том же месте где и мастер поток. Обеспечивает близость к мастер потоку
 ![](master.png)
 
 
-```
-#pragma omp parallel proc_bind(spread)
 
-#pragma omp parallel proc_bind(close)
-
-#pragma omp parallel proc_bind(master)
-```
-
-
-Переменные окружения 
-```
-
-export OMP_PROC_BIND= "spread"
-export OMP_PROC_BIND= "close"
-export OMP_PROC_BIND= "master"
 export OMP_PROC_BIND= "true"
 export OMP_PROC_BIND= "false"
 
-export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"```
+export OMP_PLACES="{0,1,2,3}{4,5,6,7}{8:4}"
+
+
+
+* close -  размещать потоки последовательно как можно ближе к мастер потоку. Используется если желательно совместное использование ресурсов потоками.
+
+
+
+
 
 
 
