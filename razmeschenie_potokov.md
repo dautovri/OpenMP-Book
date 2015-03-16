@@ -86,7 +86,7 @@ rus@ubuntu:~$ lstopo
 set OMP_DISPLAY_ENV=true
 ```
 
-Установив  OMP_DISPLAY_ENV на true, программа выведет все переменные окружения относительно OpenMP.
+Установив  OMP_DISPLAY_ENV на true, программа выведет все переменные окружения относящиеся к OpenMP.
 
 
  
