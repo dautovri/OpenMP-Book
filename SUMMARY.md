@@ -5,10 +5,10 @@
    * [Начало](nachalo.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
+* [Глава 0](glava_0.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
 * [Стратегии](strategii.md)
 * [Механизмы](mehanizmi.md)
-* [Глава 0](glava_0.md)
 
