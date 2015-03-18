@@ -7,7 +7,7 @@
 
 Присоеденяйтесь к написанию.
 
-По всем вопросам пишите мне  dautov2@yandex.ru 
+По всем вопросам  dautov2@yandex.ru 
 
 [Github](https://github.com/dautov2/OpenMP)  
 
