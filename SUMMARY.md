@@ -5,6 +5,7 @@
    * [Стратегии](strategii.md)
    * [Механизмы](mehanizmi.md)
    * [Аппаратная часть](apparatnaya_chast.md)
+   * Теория производительности
 * [Глава 1](glava_1.md)
    * [Начало](nachalo.md)
    * [История](istoria.md)
