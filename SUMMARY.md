@@ -1,7 +1,6 @@
 # Summary
 
 * [0](README.md)
-* [Механизмы](mehanizmi.md)
 * [Глава 0](glava_0.md)
 * [Глава 1](glava_1.md)
    * [Начало](nachalo.md)
