@@ -9,5 +9,5 @@
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
 * [Стратегии](strategii.md)
-* Механизмы
+* [Механизмы](mehanizmi.md)
 
