@@ -8,5 +8,5 @@
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
-* Стратегии
+* [Стратегии](strategii.md)
 
