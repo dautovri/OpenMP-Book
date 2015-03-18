@@ -10,4 +10,5 @@
 * [Векторизация](vektorizatsiya.md)
 * [Стратегии](strategii.md)
 * [Механизмы](mehanizmi.md)
+* Глава 0
 
