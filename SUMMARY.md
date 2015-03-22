@@ -7,7 +7,7 @@
    * [Аппаратная часть](apparatnaya_chast.md)
    * [Теория производительности](teoriya_proizvoditelnosti.md)
 * [Глава 1](glava_1.md)
-   * [Начало](nachalo.md)
+   * [Начало](glava1/nachalo.md)
    * [История](istoria.md)
    * [Компиляторы](kompilyatori.md)
 * [Размещение потоков](razmeschenie_potokov.md)
