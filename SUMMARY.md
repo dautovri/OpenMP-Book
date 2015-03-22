@@ -2,7 +2,7 @@
 
 * [0](README.md)
 * [Глава 0](glava0/glava_0.md)
-   * [Стратегии](strategii.md)
+   * [Стратегии](glava0/strategii.md)
    * [Механизмы](mehanizmi.md)
    * [Аппаратная часть](apparatnaya_chast.md)
    * [Теория производительности](teoriya_proizvoditelnosti.md)
