@@ -11,6 +11,7 @@
 Эта книга находится в стадии разработки. Открыта для новых авторов. Мы не будем закрывать ее написание. Мы не станем требовать плату. Мы будем делать ее вместе. 
 
 Если хотите поделиться своими знaниями или мыслями **dautov2@yandex.ru **
+Так же вы можете написать в чат [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dautov2/OpenMP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [Github](https://github.com/dautov2/OpenMP)  
 
