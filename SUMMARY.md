@@ -9,7 +9,7 @@
 * [Глава 1](glava_1.md)
    * [Начало](glava1/nachalo.md)
    * [История](glava1/istoria.md)
-   * [Компиляторы](kompilyatori.md)
+   * [Компиляторы](glava1/kompilyatori.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
