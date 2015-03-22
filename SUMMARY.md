@@ -1,6 +1,6 @@
 # Summary
 
-* [0](README.md)
+* [Readme](README.md)
 * [Глава 0](glava0/glava_0.md)
    * [Стратегии](glava0/strategii.md)
    * [Механизмы](mehanizmi.md)
