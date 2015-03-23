@@ -42,7 +42,7 @@
 ```
 #pragma omp critical
 {
-	cout << "Привет от потока " << omp_get_thread_num()<<endl;
+	cout << "Привет от потока № " << omp_get_thread_num()<<endl;
 }
 
 //omp_get_thread_num() - библиотечная функция которая возвращает номер потока.
