@@ -40,20 +40,9 @@
 ```
 Однако, есть случаи когда этого делать не стоит. К примеру, не стоит делать именованные критические секции для вывода данных на экран или же в один файл.
 ```
-#include <stdio.h> 
-#include <omp.h> 
-int main(int argc, char *argv[]) 
-{ 
-    int n; 
- 
-    #pragma omp parallel 
-    { 
-        #pragma omp critical 
-        { 
-            n = omp_get_thread_num(); 
-            printf("Нить %d\n", n); 
-        } 
-    } 
+#pragma omp critical
+{
+	cout << "Привет от потока " << omp_get_thread_num()<<endl;
 }
 
 //omp_get_thread_num() - библиотечная функция которая возвращает номер потока.
