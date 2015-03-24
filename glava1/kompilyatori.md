@@ -39,4 +39,4 @@ Microsoft VC++:  **/openmp**
 
 В Visual Studio вы можете влючить опцию в настройках проекта. 
 
-![](OpenMPSetting.png)
+![](glava1/OpenMPSetting.png)
