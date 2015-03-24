@@ -6,10 +6,8 @@
 ```
 
 #pragma omp simd 
-#pragma omp declare simd
-#pragma omp parallel for simd
-
-  #pragma omp simd  safelen(длина)
+    Дополнительные опции
+              simd  safelen(длина)
                     linear(list[:шаг])
                     aligned(list[:выравнивание])
                     private(list)
@@ -18,6 +16,18 @@
                     collapse(n)
                     
                     list - список переменных
+                    
+                    
+#pragma omp declare simd
+    Дополнительные опции
+      declare simd simdlen(length)
+                    linear(argument-list[:constant-linear-step])
+                    aligned(argument-list[:alignment])
+                    uniform(argument-list)
+                    inbranch
+                    notinbranch
+
+#pragma omp parallel for simd
 
 
 ```
