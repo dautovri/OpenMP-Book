@@ -1,7 +1,7 @@
 # Summary
 
 * [Readme](README.md)
-* [Глава 0](glava0/glava_0.md)
+* [Введение](glava0/glava_0.md)
    * [Стратегии](glava0/strategii.md)
    * [Механизмы](mehanizmi.md)
    * [Аппаратная часть](glava0/apparatnaya_chast.md)
