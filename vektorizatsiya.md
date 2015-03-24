@@ -11,7 +11,7 @@
 
   #pragma omp simd  safelen(длина)
                     linear(list[:шаг])
-                    aligned(list[:alignment])
+                    aligned(list[:выравнивание])
                     private(list)
                     lastprivate(list)
                     reduction(операция:list)
