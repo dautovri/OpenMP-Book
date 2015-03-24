@@ -6,7 +6,7 @@
    * [Механизмы](mehanizmi.md)
    * [Аппаратная часть](glava0/apparatnaya_chast.md)
    * [Теория производительности](glava0/teoriya_proizvoditelnosti.md)
-* [Глава 1](glava_1.md)
+* [Глава 2](glava_1.md)
    * [Начало](glava1/nachalo.md)
    * [История](glava1/istoria.md)
    * [Компиляторы](glava1/kompilyatori.md)
