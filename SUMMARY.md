@@ -8,7 +8,7 @@
    * [Теория производительности](glava0/teoriya_proizvoditelnosti.md)
 * [Глава 2](glava_1.md)
    * [Начало](glava1/nachalo.md)
-   * [История](glava1/istoria.md)
+   * [История](glava2/istoria.md)
    * [Компиляторы](glava1/kompilyatori.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
