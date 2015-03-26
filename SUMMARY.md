@@ -4,7 +4,7 @@
 * [Глава 1](glava1/glava_1.md)
    * [Стратегии](glava1/strategii.md)
    * [Механизмы](glava1/mehanizmi.md)
-   * [Аппаратная часть](glava0/apparatnaya_chast.md)
+   * [Аппаратная часть](glava1/apparatnaya_chast.md)
    * [Теория производительности](glava0/teoriya_proizvoditelnosti.md)
 * [Глава 2](glava_1.md)
    * [Начало](glava2/nachalo.md)
