@@ -1,8 +1,7 @@
 {
     "plugins": [
         "toc",
-        "mathjax",
-        "google_code_prettify"
+        "mathjax"
     ],
     "pluginsConfig": {}
 }
