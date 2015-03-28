@@ -8,7 +8,7 @@
    * [Теория производительности](glava1/teoriya_proizvoditelnosti.md)
 * [Глава 2](glava2/glava_2.md)
    * [Начало](glava2/nachalo.md)
-   * [История](glava2/istoria.md)
+   * [История OpenMP](glava2/istoria.md)
    * [Компиляторы](glava2/kompilyatori.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
