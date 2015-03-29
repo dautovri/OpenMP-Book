@@ -1,7 +1,8 @@
 {
     "plugins": [
         "toc",
-        "mathjax"
+        "mathjax",
+        "youtube"
     ],
     "pluginsConfig": {}
 }
