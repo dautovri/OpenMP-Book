@@ -47,6 +47,9 @@
 
 ##### Архитектура NVIDIA CUDA
 ![](tesla.jpg)
+
+
+
 ![](GeForce-8800-GTX-2.png)
 
 ##### Архитектура Intel MIC (Many Integrated Core Architecture)
