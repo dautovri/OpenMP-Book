@@ -45,8 +45,11 @@
 
 #### Присоединённые устройства
 Архитектура NVIDIA CUDA
+![](tesla.jpg)
 
 Архитектура Intel MIC (Many Integrated Core Architecture)
+
+![](Xeon_Phi_PCIe_Card_M.jpg)
 
 В основе архитектуры Intel MIC лежит классическая архитектура x86, на ускорителе исполняется ОС Linux. Для программирования MIC предполагается использовать OpenMP, OpenCL, Intel Cilk Plus, специализированные компиляторы Intel Fortran, Intel C++. Также предоставляются математические библиотеки.
 
