@@ -48,7 +48,7 @@
 ##### Архитектура NVIDIA CUDA
 ![](tesla.jpg)
 
-
+{% youtube %}http://www.youtube.com/watch?v=-P28LKWTzrI
 ##### Архитектура Intel MIC (Many Integrated Core Architecture)
 
 ![](Xeon_Phi_PCIe_Card_M.jpg)
