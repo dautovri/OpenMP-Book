@@ -310,4 +310,4 @@ Possible data race during write of size 4 at 0x42B6530
 * 
 ![](kcachegrind.jpg)
 
-[Спасибо за главу Алексу Отт (Германия)  ](http://alexott.net/ru/linux/valgrind/Valgrind.html#sec5)
+[Спасибо за главу Алексу Отт (Германия)  ](http://alexott.net/ru/linux/valgrind/Valgrind.html)
