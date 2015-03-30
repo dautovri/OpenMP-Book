@@ -15,4 +15,5 @@
 * [Векторизация](vektorizatsiya.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Спасибо.](spasibo.md)
+* Что такое Valgrind и для чего он нужен.
 
