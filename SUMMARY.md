@@ -14,4 +14,5 @@
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
 * [Критические секции](kriticheskie_sektsii.md)
+   * Благодарности.
 
