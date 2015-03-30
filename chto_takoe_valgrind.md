@@ -148,4 +148,15 @@ Mismatched free() / delete / delete []
 В первой строке приводится описание соответствующей ошибки, а затем идет стек вызова функций, приведших к появлению данной ошибки. В том случае, где это необходимо (как в нашем примере), выдается также адрес блока памяти и место где этот блок памяти был выделен.
 
 #### Нахождение утечек памяти
+При окончании работы программы valgrind выдает сводную таблицу, описывающую количество найденных ошибок, а также выделение памяти в программе, например:
+
+```
+ERROR SUMMARY: 2569904 errors from 493 contexts (suppressed: 17962 from 9)
+malloc/free: in use at exit: 85,066,939 bytes in 313,004 blocks.
+malloc/free: 10,552,914 allocs, 10,239,910 frees, 565,747,810 bytes allocated.
+For counts of detected errors, rerun with: -v
+searching for pointers to 313,004 not-freed blocks.
+checked 117,623,772 bytes.
+```
+
 
