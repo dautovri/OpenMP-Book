@@ -14,6 +14,6 @@
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
 * [Критические секции](kriticheskie_sektsii.md)
-* [Спасибо.](spasibo.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
+* [Спасибо.](spasibo.md)
 
