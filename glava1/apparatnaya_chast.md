@@ -59,6 +59,19 @@
 
 Так же стоит отметить при использовании GPU разработчику доступно несколько видов памяти: регистры, локальная, глобальная, разделяемая, константная и текстурная память. Каждая из этих типов памяти имеет определённое назначение, которое обуславливается её техническими параметрами (скорость работы, уровень доступа на чтение и запись).
 
+```
+__global__ void transposeNaive(float *odata, const float *idata)
+{
+  int x = blockIdx.x * TILE_DIM + threadIdx.x;
+  int y = blockIdx.y * TILE_DIM + threadIdx.y;
+  int width = gridDim.x * TILE_DIM;
+
+  for (int j = 0; j < TILE_DIM; j+= BLOCK_ROWS)
+    odata[x*width + (y+j)] = idata[(y+j)*width + x];
+}
+```
+
+
 Ниже приведена архитектура устройства:
 ![](GeForce-8800-GTX-2.png)
 
