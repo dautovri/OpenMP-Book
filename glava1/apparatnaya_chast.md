@@ -91,8 +91,9 @@ __global__ void transposeNaive(float *odata, const float *idata)
 Нужно отметить тот факт, что написать приложение для архитектуры Intel MIC, проще чем на CUDA. Однако, нужно приложить усилия при написания программ, что бы достигнуть максимальной производительности. 
 
 $$ A_{ij}^T =A_{ji}  $$
-Например, операция транспонирование матрицы:
+Операция транспонирование матрицы:
 ```
+ //FTYPE = float
 #pragma omp parallel for
 for (int i = 0; i < n; i++)
      for (int j = 0; j<i; j++) 
@@ -107,7 +108,7 @@ for (int i = 0; i < n; i++)
 ```
 void Transpose(FTYPE* const A, const int n, const int* const plan)
 {
-
+  //FTYPE = float 
   // nEven is a multiple of TILE
   const int nEven = n - n%TILE;
   const int wTiles = nEven / TILE;                  // Complete tiles in each dimens.
@@ -115,7 +116,6 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
 
 #pragma omp parallel
   { 
-
     #pragma omp for schedule(guided)
     for (int k = 0; k < nTilesParallel; k++)
     {
