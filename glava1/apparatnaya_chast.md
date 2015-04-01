@@ -106,22 +106,22 @@ for (int i = 0; i < n; i++)
 ```
 Будет приведена к следующему виду
 ```
+ //FTYPE = float 
 void Transpose(FTYPE* const A, const int n, const int* const plan)
 {
-  //FTYPE = float 
+ 
   // nEven is a multiple of TILE
   const int nEven = n - n%TILE;
   const int wTiles = nEven / TILE;                  // Complete tiles in each dimens.
-  const int nTilesParallel = wTiles*(wTiles - 1)/2; // # of tiles in the matrix body
+  const int nTilesParallel = wTiles*(wTiles - 1)/2; // # блоков матриц
 
 #pragma omp parallel
   { 
     #pragma omp for schedule(guided)
     for (int k = 0; k < nTilesParallel; k++)
     {
-
-      // For large matrices, most of the work takes place in this loop.
-
+      //Для матриц больших размерностей большая часть работы будет в данном цикле
+      
       const int ii = plan[2*k + 0];
       const int jj = plan[2*k + 1];
 
@@ -139,7 +139,7 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
       }
     }
 
-    // Transposing the tiles along the main diagonal
+    //Транспонирование блоков вдоль главной диагонали
     #pragma omp for schedule(static)
     for (int ii = 0; ii < nEven; ii += TILE) 
     {
@@ -155,7 +155,7 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
     	}
     }
 
-    // Transposing ``peel'' around the right and bottom perimeter
+    // Транспонирование "Шубы"  правой и нижней части матрицы.
     #pragma omp for schedule(static)
     for (int j = 0; j < nEven; j++) 
     {
