@@ -62,6 +62,7 @@
 
 Операция транспонирование матрицы выглядит следующим образом.
 $$ A_{ij}^T =A_{ji}  $$
+А функция транспонированная на CUDA.
 ```
 __global__ void transposeNaive(float *odata, const float *idata)
 {
@@ -73,7 +74,7 @@ __global__ void transposeNaive(float *odata, const float *idata)
     odata[x*width + (y+j)] = idata[(y+j)*width + x];
 }
 ```
-
+Конечно, это не самый удачный вариант можно воспользоватся библиотечными функциями.
 
 Ниже приведена архитектура устройства:
 ![](GeForce-8800-GTX-2.png)
