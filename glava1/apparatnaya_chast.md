@@ -126,7 +126,7 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
       const int ii = plan[2*k + 0];
       const int jj = plan[2*k + 1];
 
-      // The main tile transposition microkernel
+      // Транспонирование блоков
       for (int j = jj; j < jj+TILE; j++) 
       { 
         #pragma simd
@@ -170,7 +170,7 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
 
   }
 
-  // Transposing the bottom-right corner
+  // Транспонирование нижнего правого угла
   for (int j = nEven; j < n; j++)
   {
     for (int i = nEven; i < j; i++) 
