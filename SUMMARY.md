@@ -16,4 +16,5 @@
 * [Критические секции](kriticheskie_sektsii.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
 * [Спасибо.](spasibo.md)
+* Глава 3
 
