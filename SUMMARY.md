@@ -11,7 +11,7 @@
    * [История OpenMP](glava2/istoria.md)
    * [Компиляторы](glava2/kompilyatori.md)
 * [Глава 3](glava3/glava_3.md)
-   * [parallel](parallel.md)
+   * [parallel](glava3/parallel.md)
    * [parallel for](glava3/parallel_for.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
