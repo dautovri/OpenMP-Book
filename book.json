@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "toc",
         "mathjax"
     ],
     "pluginsConfig": {}
