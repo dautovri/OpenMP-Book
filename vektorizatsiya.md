@@ -30,12 +30,12 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n );
                     
 #pragma omp declare simd
     Дополнительные опции
-                    simdlen(length)
-                    linear(argument-list[:constant-linear-step])
-                    aligned(argument-list[:alignment])
-                    uniform(argument-list)
-                    inbranch
-                    notinbranch
+                            simdlen(length)
+                            linear(argument-list[:constant-linear-step])
+                            aligned(argument-list[:alignment])
+                            uniform(argument-list)
+                            inbranch
+                            notinbranch
 
 #pragma omp parallel for simd
 
