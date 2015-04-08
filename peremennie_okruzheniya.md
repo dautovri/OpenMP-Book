@@ -3,7 +3,7 @@
 | Название | Возможные значения  | По умолчанию* |
 | -- | -- | -- |
 | OMP_NUM_THREADS   | неотрицательное целое  | 1 или кол-во ядер |
-| OMP_SCHEDULE | 1:3 | 2:3 |
+| OMP_SCHEDULE | тип планирования [размер] | static |
 | OMP_DYNAMIC | TRUE FALSE | TRUE |
 | OMP_NESTED  | TRUE FALSE| FALSE |
 | OMP_STACKSIZE | "размер [B K M G]" | - |
