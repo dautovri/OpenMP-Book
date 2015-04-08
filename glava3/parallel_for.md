@@ -1,5 +1,7 @@
 # parallel for
 
 ```
-#pragma omp parallel [клаузы]
+#pragma omp parallel for [клаузы]
 ```
+
+
