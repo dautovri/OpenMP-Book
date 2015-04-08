@@ -17,7 +17,7 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n );
 
 #pragma omp simd 
     Дополнительные опции
-              simd  safelen(длина)
+                    safelen(длина)
                     linear(list[:шаг])
                     aligned(list[:выравнивание])
                     private(list)
@@ -30,7 +30,7 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n );
                     
 #pragma omp declare simd
     Дополнительные опции
-      declare simd simdlen(length)
+                    simdlen(length)
                     linear(argument-list[:constant-linear-step])
                     aligned(argument-list[:alignment])
                     uniform(argument-list)
