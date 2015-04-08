@@ -11,7 +11,7 @@
 | OMP_MAX_ACTIVE_LEVELS | неотрицательное целое | - |
 | OMP_THREAD_LIMIT | неотрицательное целое | 1024 |
 | OMP_PROC_BIND |  TRUE FALSE | FALSE |
-| OMP_PLACES | 1:7 | - |
+| OMP_PLACES | порядок размещения | - |
 | OMP_CANCELLATION |  TRUE FALSE | FALSE |
 | OMP_DISPLAY_ENV|  TRUE FALSE | FALSE |
 | OMP_DEFAULT_DEVICE| неотрицательное целое | - |
