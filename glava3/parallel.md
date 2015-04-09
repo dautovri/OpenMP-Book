@@ -11,14 +11,15 @@
 
 Клауза одна из следующих:
 
-* **if (скалярное выражение )**
+* **if (скалярное выражение)**
+* **num_threads(целое число)**
 * **private (список)**
 * **shared (список)**
 * **default (shared | none)**
 * **firstprivate (список)**
 * **reduction (оператор : список)**
 * **copyin (список)**
-* **proc_bind( master | close | spread )**
+* **proc_bind(master | close | spread)**
 
 
 
