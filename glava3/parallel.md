@@ -18,6 +18,7 @@
 * **firstprivate (список)**
 * **reduction (оператор : список)**
 * **copyin (список)**
+* **proc_bind( master | close | spread )**
 
 
 
