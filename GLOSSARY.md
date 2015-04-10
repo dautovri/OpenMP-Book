@@ -1,12 +1,12 @@
 # Glossary
 
-## PCF
-
-Parallel Computing Forum 
-
 ## ARB
 
 The OpenMP Architecture Review Board
+
+## PCF
+
+Parallel Computing Forum 
 
 ## SMP
 
