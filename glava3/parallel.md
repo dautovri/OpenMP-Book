@@ -12,14 +12,14 @@
 Клауза одна из следующих:
 
 * **if (скалярное выражение)**
-* **num_threads(целое число)**
+* **num_threads (целое число)**
 * **private (список)**
 * **shared (список)**
 * **default (shared | none)**
 * **firstprivate (список)**
 * **reduction (оператор : список)**
 * **copyin (список)**
-* **proc_bind(master | close | spread)**
+* **proc_bind (master | close | spread)**
 
 
 Когда поток встречает параллельную конструкцию, то создаётся группа потоков в одном из следующих случаев:
