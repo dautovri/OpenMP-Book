@@ -9,9 +9,8 @@
 Эта книга находится в стадии разработки. Открыта для новых авторов. Мы не будем закрывать ее написание. Мы не станем требовать плату. Мы будем делать ее вместе. 
 
 Если хотите поделиться своими знaниями или мыслями **dautov2@yandex.ru **
-Так же вы можете[ написать в чат. ](https://gitter.im/dautov2/OpenMP?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-[Github](https://github.com/dautov2/OpenMP)  
+[Github](https://github.com/dautov2/OpenMP-Book)  
 
 ![](http://habrastorage.org/files/3bf/d95/694/3bfd9569429642b7bd3f299f761befdb.jpg)
 
