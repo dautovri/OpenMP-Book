@@ -19,3 +19,28 @@
 
 
 Значения по умолчанию зависят от реализации. В таблице приведены чаще встречающиеся значения.
+
+```
+
+//=============
+#if defined _OPENMP
+  #define X_OMP_SUPPORT 1
+  #define X_OMP_DATE _OPENMP
+  #if X_OMP_DATE == 199710
+    #define X_OMP_VERSION 100 //1.0
+  #elif X_OMP_DATE == 200203
+    #define X_OMP_VERSION 200 //2.0
+  #elif X_OMP_DATE == 200805
+    #define X_OMP_VERSION 300 //3.0
+  #elif X_OMP_DATE == 201107
+    #define X_OMP_VERSION 310 //3.1
+  #elif X_OMP_DATE == 201307
+    #define X_OMP_VERSION 400 //4.0
+  #endif
+#endif
+
+//Или можно применить вывод информации о версии OpenMP
+
+#if defined(_OPENMP)
+  fprintf(stderr, "OPENMP VERSION      = %d\n", _OPENMP);
+#endif```
