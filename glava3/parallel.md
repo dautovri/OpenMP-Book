@@ -26,20 +26,22 @@
 
 * Не присутствует клауза **if**
 * Значение скалярного выражения в клаузе **if** не равно нулю
+
+
 ```
 void test(bool x)
 {
-      #pragma omp parallel if (x)
-      if (omp_in_parallel())
-      {
-        #pragma omp single
-        printf_s("parallelized with %d threads\n",
-                 omp_get_num_threads());
-      }
-      else
-      {
-        printf_s("single thread\n");
-      }
+  #pragma omp parallel if (x)
+  if (omp_in_parallel())
+  {
+    #pragma omp single
+    printf_s("parallelized with %d threads\n",
+             omp_get_num_threads());
+  }
+  else
+  {
+    printf_s("single thread\n");
+  }
 }
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -53,7 +55,6 @@ int _tmain(int argc, _TCHAR* argv[])
 single thread
 parallelized with 4 threads
 ```
-
 Поток становится основным потоком группы, получает номер 0, и все потоки, включая основной, выполняют параллельно. Число потоков в группе управляется переменной окружения или библиотечной функцией. Если выражение в клаузе **if**  равно 0 , то область выполняется последовательно.
 
 В конце параллельной области осуществляется, не указанная явно, барьерная синхронизация.
