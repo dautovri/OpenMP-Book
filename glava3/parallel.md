@@ -29,17 +29,17 @@
 ```
 void test(bool x)
 {
-  #pragma omp parallel if (x)
-  if (omp_in_parallel())
-  {
-    #pragma omp single
-    printf_s("parallelized with %d threads\n",
-             omp_get_num_threads());
-  }
-  else
-  {
-    printf_s("single thread\n");
-  }
+      #pragma omp parallel if (x)
+      if (omp_in_parallel())
+      {
+        #pragma omp single
+        printf_s("parallelized with %d threads\n",
+                 omp_get_num_threads());
+      }
+      else
+      {
+        printf_s("single thread\n");
+      }
 }
 int _tmain(int argc, _TCHAR* argv[])
 {
