@@ -31,31 +31,35 @@
 
 Пример продемонстрирует использование условий.
 ```
-void test(bool x)
+#include <stdio.h>
+#include <omp.h>
+
+void test(int val)
 {
-  #pragma omp parallel if (x)
-  if (omp_in_parallel())
-  {
-    #pragma omp single
-    printf_s("parallelized with %d threads\n",
-             omp_get_num_threads());
-  }
-  else
-  {
-    printf_s("single thread\n");
-  }
+    #pragma omp parallel if (val)
+    if (omp_in_parallel())
+    {
+        #pragma omp single
+        printf_s("val = %d, parallelized with %d threads\n",
+                 val, omp_get_num_threads());
+    }
+    else
+    {
+        printf_s("val = %d, serialized\n", val);
+    }
 }
-int _tmain(int argc, _TCHAR* argv[])
+
+int main( )
 {
-   test(false);
-   test(true);
-   return 0;
+    omp_set_num_threads(2);
+    test(0);
+    test(2);
 }
 ```
 Результат работы:
 ```
 single thread
-parallelized with 4 threads
+parallelized with 2 threads
 ```
 
 В конце параллельной области осуществляется, не указанная явно, барьерная синхронизация.
