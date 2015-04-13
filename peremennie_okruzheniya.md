@@ -38,7 +38,7 @@
     #define X_OMP_VERSION 400 //4.0
   #endif
 #endif
-
+//=====================
 //Или можно применить вывод информации о версии OpenMP
 
 #if defined(_OPENMP)
