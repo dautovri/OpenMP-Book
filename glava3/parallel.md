@@ -58,8 +58,8 @@ int main( )
 ```
 Результат работы:
 ```
-single thread
-parallelized with 2 threads
+val = 0, serialized
+val = 2, parallelized with 2 threads
 ```
 
 В конце параллельной области осуществляется, не указанная явно, барьерная синхронизация.
