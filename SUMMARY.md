@@ -13,7 +13,7 @@
 * [Глава 3](glava3/glava_3.md)
    * [parallel](glava3/parallel.md)
    * [parallel for](glava3/parallel_for.md)
-   * sections
+   * [sections](sections.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Векторизация](vektorizatsiya.md)
