@@ -64,7 +64,7 @@ val = 2, parallelized with 2 threads
 
 В конце параллельной области осуществляется, не указанная явно, барьерная синхронизация.
 
-Если поток в группе, выполняя  параллельную область кода, встретит другую параллельную конструкцию, она создает новую группу и становится основным потоком в новой группе. Вложенные паралелльные области выполняются по умолчанию последовательно. И как следствие, по умолчанию вложенная параллельная область выполняется группой, состоящей из одного потока.
+Если поток в группе, выполняя  параллельную область кода, встретит другую параллельную конструкцию, она создает новую группу и становится основным потоком в новой группе. Вложенные паралелльные области выполняются по умолчанию последовательно. И как следствие, по умолчанию вложенная параллельная область выполняется группой, состоящей из одного потока. Поведение по умолчанию может быть изменено путем применения библиотечной функции времени выполнения **omp_set_nested** или переменной среды **OMP_NESTED**.
 
 ```
 #include <omp.h>
@@ -94,6 +94,25 @@ int main()
     }
     return 0;
 }
+```
+```
+setenv OMP_NESTED TRUE
+
+Level 1: number of threads in the team - 2
+Level 2: number of threads in the team - 2
+Level 2: number of threads in the team - 2
+Level 3: number of threads in the team - 2
+Level 3: number of threads in the team - 2
+Level 3: number of threads in the team - 2
+Level 3: number of threads in the team - 2
+
+setenv OMP_NESTED FALSE
+
+Level 1: number of threads in the team - 2
+Level 2: number of threads in the team - 1
+Level 3: number of threads in the team - 1
+Level 2: number of threads in the team - 1
+Level 3: number of threads in the team - 1
 ```
 
 
