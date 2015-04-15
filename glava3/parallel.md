@@ -66,6 +66,38 @@ val = 2, parallelized with 2 threads
 
 Если поток в группе, выполняя  параллельную область кода, встретит другую параллельную конструкцию, она создает новую группу и становится основным потоком в новой группе. Вложенные паралелльные области выполняются по умолчанию последовательно. И как следствие, по умолчанию вложенная параллельная область выполняется группой, состоящей из одного потока.
 
+```
+#include <omp.h>
+#include <stdio.h>
+void report_num_threads(int level)
+{
+    #pragma omp single
+    {
+         printf("Level %d: number of threads in the team - %d\n",
+                      level, omp_get_num_threads());
+    }
+}
+int main()
+{
+    omp_set_dynamic(0);
+    #pragma omp parallel num_threads(2)
+    {
+        report_num_threads(1);
+        #pragma omp parallel num_threads(2)
+        {
+            report_num_threads(2);
+            #pragma omp parallel num_threads(2)
+            {
+                report_num_threads(3);
+            }
+        }
+    }
+    return 0;
+}
+```
+
+
+
 У директивы есть и ограничения по применению:
 * Клауза **if** может встретиться только один раз.
 * Не специцифицируется побочных эффектов, если присутствует выражение внутри **if**.
