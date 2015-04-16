@@ -16,30 +16,37 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n );
 ```
 
 #pragma omp simd 
-    Дополнительные опции
-                    safelen(длина)
-                    linear(list[:шаг])
-                    aligned(list[:выравнивание])
-                    private(list)
-                    lastprivate(list)
-                    reduction(операция:list)
-                    collapse(n)
+```
+Клаузы:
+* safelen(длина)
+* linear(list[:шаг])
+* aligned(list[:выравнивание])
+* private(list)
+* lastprivate(list)
+* reduction(операция:list)
+* collapse(n)
+
+list - список переменных
                     
-                    list - список переменных
                     
-                    
+```
 #pragma omp declare simd
-    Дополнительные опции
-                            simdlen(length)
-                            linear(argument-list[:constant-linear-step])
-                            aligned(argument-list[:alignment])
-                            uniform(argument-list)
-                            inbranch
-                            notinbranch
+```
 
-#pragma omp parallel for simd
-
+Клаузы:
+* simdlen(length)
+* linear(argument-list[:constant-linear-step])
+* aligned(argument-list[:alignment])
+* uniform(argument-list)
+* inbranch
+* notinbranch
 
 ```
+#pragma omp parallel for simd
+```
+
+
+
+
 
 Парадигма SIMD – single instruction multiple data (одна инструкция множество данных).
