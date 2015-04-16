@@ -12,7 +12,7 @@
    * [Компиляторы](glava2/kompilyatori.md)
 * [Глава 3](glava3/glava_3.md)
    * [parallel](glava3/parallel.md)
-   * [parallel for](glava3/parallel_for.md)
+   * [for](glava3/for.md)
    * [sections](glava3/sections.md)
 * [Размещение потоков](razmeschenie_potokov.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
