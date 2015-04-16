@@ -6,3 +6,9 @@
 #pragma omp for [клауза [ клауза]]
     цикл for
 ```
+* **private (список)**
+* **firstprivate (список)**
+* **lastprivate (список)**
+* **reduction (оператор : список)**
+* ordered
+* schedule(вид[,длина ]) 
