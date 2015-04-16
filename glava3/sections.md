@@ -1,2 +1,61 @@
 # sections
 
+
+
+
+
+
+```
+#pragma omp parallel     
+{ 
+    #pragma omp for 
+    for (i=0; i<x; i++)
+    Fn1();
+    
+    #pragma omp sections  
+    { 
+        #pragma omp section  
+        {  
+            TaskA(); 
+        }  
+        #pragma omp section 
+        { 
+            TaskB(); 
+        } 
+        #pragma omp section 
+        { 
+         TaskC();  
+        }
+    } 
+} 
+```
+
+
+
+
+
+
+
+
+```
+#pragma omp parallel sections
+{
+    #pragma omp section
+    {
+        printf ("section 1 id = %d, \n", omp_get_thread_num()); 
+    }
+    #pragma omp section
+    {
+        printf ("section 2 id = %d, \n", omp_get_thread_num());
+    }
+    #pragma omp section
+    {
+        printf ("section 3 id = %d, \n", omp_get_thread_num());
+    }
+}
+```
+```
+section 1 id = 4,
+section 3 id = 3,
+section 2 id = 1,
+```
