@@ -19,14 +19,14 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n );
 ```
 Клаузы:
 * safelen(длина)
-* linear(list[:шаг])
-* aligned(list[:выравнивание])
-* private(list)
-* lastprivate(list)
-* reduction(операция:list)
+* linear(список[:шаг])
+* aligned(список[:выравнивание])
+* private(список)
+* lastprivate(список)
+* reduction(операция:список)
 * collapse(n)
 
-list - список переменных
+
                     
                     
 ```
@@ -34,10 +34,10 @@ list - список переменных
 ```
 
 Клаузы:
-* simdlen(length)
-* linear(argument-list[:constant-linear-step])
-* aligned(argument-list[:alignment])
-* uniform(argument-list)
+* simdlen(длина)
+* linear(список[:шаг])
+* aligned(список[:выравнивание])
+* uniform(список)
 * inbranch
 * notinbranch
 
