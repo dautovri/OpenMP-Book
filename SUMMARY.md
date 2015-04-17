@@ -12,7 +12,7 @@
    * [Компиляторы](glava2/kompilyatori.md)
 * [Глава 3](glava3/glava_3.md)
    * [parallel](glava3/parallel.md)
-   * [procbind](glava3/razmeschenie_potokov.md)
+   * [proc_bind](glava3/proc_bind.md)
    * [for](glava3/for.md)
    * [sections](glava3/sections.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
