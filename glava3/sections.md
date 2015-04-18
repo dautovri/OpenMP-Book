@@ -7,16 +7,12 @@
 ```
 #pragma omp parallel sections [клауза [ клауза]]
 {
-    [#pragma section]
+    [#pragma omp section]
       структурированный блок
-    [#pragma section]
+    [#pragma omp section]
       структурированный блок
 }
 ```
-
-
-
-
 
 ```
 #pragma omp parallel     
