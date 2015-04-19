@@ -89,7 +89,6 @@ Eсли определена клауза **schedule(static, длина_порц
     #pragma omp for nowait
     for ( i=1; i<n; i++ )
         y[i] = sqrt( z[i] );
-    
 }   
 ```
 
