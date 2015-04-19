@@ -28,7 +28,7 @@
 { 
     #pragma omp for 
     for (i=0; i<x; i++)
-    Fn1();
+        Fn1();
     
     #pragma omp sections  
     { 
