@@ -33,7 +33,7 @@
         } 
         #pragma omp section 
         { 
-         TaskC();  
+            TaskC();  
         }
     } 
 } 
