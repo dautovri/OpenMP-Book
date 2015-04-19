@@ -49,12 +49,6 @@
 ```
 
 
-
-
-
-
-
-
 ```
 #pragma omp parallel sections
 {
