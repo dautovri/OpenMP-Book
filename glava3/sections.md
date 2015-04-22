@@ -23,32 +23,7 @@
 
 Если клауза **nowait** не укзана, то конструкция **sections** неявно завершится барьерной синхронизацией. Каждой секции предшествует **section**, хотя в первой секции директива **section** может отсутвовать. В отличие от планирования циклов, распределение нагрузки между потоками при обработке параллельных разделов кода осуществляется и контролируется OpenMP. Программисту остается только выбрать, какие переменные будут общими, а какие индивидуальными, и предусмотреть выражения уменьшения аналогично сегменту с организацией циклов.
 
-```
-#pragma omp parallel     
-{ 
-    #pragma omp for 
-    for (i=0; i<x; i++)
-        Fn1();
-    
-    #pragma omp sections  
-    { 
-        #pragma omp section  
-        {  
-            TaskA(); 
-        }  
-        #pragma omp section 
-        { 
-            TaskB(); 
-        } 
-        #pragma omp section 
-        { 
-            TaskC();  
-        }
-    } 
-} 
-```
-
-
+* Структурные блоки кода выделенные **section** выполняются одним потоком один раз.
 ```
 #pragma omp parallel sections
 {
@@ -70,4 +45,39 @@
 section 1 id = 4,
 section 3 id = 3,
 section 2 id = 1,
+```
+* Структурные блоки двух подряд идущих **sections** будут выполнятся в непоределенном порядке. Сначала будут выполнены в произвольном порядке.
+```
+//Первые секции
+#pragma omp parallel sections
+{
+    #pragma omp section
+    {
+        printf ("section 1 1 id = %d, \n", omp_get_thread_num()); 
+    }
+    #pragma omp section
+    {
+        printf ("section 2 id = %d, \n", omp_get_thread_num());
+    }
+    #pragma omp section
+    {
+        printf ("section 3 id = %d, \n", omp_get_thread_num());
+    }
+}
+//Вторые секции
+#pragma omp parallel sections
+{
+    #pragma omp section
+    {
+        printf ("section 1 id = %d, \n", omp_get_thread_num()); 
+    }
+    #pragma omp section
+    {
+        printf ("section 2 id = %d, \n", omp_get_thread_num());
+    }
+    #pragma omp section
+    {
+        printf ("section 3 id = %d, \n", omp_get_thread_num());
+    }
+}
 ```
