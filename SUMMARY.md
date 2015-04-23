@@ -14,7 +14,7 @@
    * [parallel](glava3/parallel.md)
    * [for](glava3/for.md)
    * [proc_bind](glava3/proc_bind.md)
-   * [sections](glava3/sections.md)
+   * [sections single](glava3/sections.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
