@@ -21,4 +21,5 @@
 * [Векторизация](vektorizatsiya.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
 * [Спасибо.](spasibo.md)
+* Глава 4
 
