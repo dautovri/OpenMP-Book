@@ -15,7 +15,7 @@
    * [for](glava3/for.md)
    * [proc_bind](glava3/proc_bind.md)
    * [sections single](glava3/sections.md)
-* Глава 4
+* [Глава 4](glava4/glava_4.md)
 * [Векторизация](vektorizatsiya.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
