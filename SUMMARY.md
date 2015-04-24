@@ -17,6 +17,7 @@
    * [sections single](glava3/sections.md)
 * [Векторизация](vektorizatsiya.md)
 * [Глава 4](glava4/glava_4.md)
+   * Векторизация
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
