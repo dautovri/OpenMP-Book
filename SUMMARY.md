@@ -16,10 +16,10 @@
    * [proc_bind](glava3/proc_bind.md)
    * [sections single](glava3/sections.md)
 * Глава 4
+* [Векторизация](vektorizatsiya.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
-* [Векторизация](vektorizatsiya.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
 * [Спасибо.](spasibo.md)
 
