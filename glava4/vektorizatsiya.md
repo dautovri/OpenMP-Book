@@ -30,8 +30,6 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n);
 * collapse(n)
 
 
-                    
-                    
 ```
 #pragma omp declare simd
 ```
