@@ -90,7 +90,7 @@ setenv OMP_NESTED TRUE
 #### **OMP_STACKSIZE**
 
 
-Переменная среды окружения **OMP_STACKSIZE** позволяет установить размер стэка для потоков создоваемых библиотекой OpenMP.
+Переменная среды окружения **OMP_STACKSIZE** позволяет установить размер стека для потоков создаваемых библиотекой OpenMP.
 
 ```
 setenv OMP_STACKSIZE 2000500B
@@ -101,3 +101,7 @@ setenv OMP_STACKSIZE "20 m "
 setenv OMP_STACKSIZE " 1G"
 setenv OMP_STACKSIZE 20000 
 ```
+#### **OMP_WAIT_POLICY**
+#### **OMP_MAX_ACTIVE_LEVELS**
+#### **OMP_CANCELLATION**
+#### **OMP_DISPLAY_ENV**
