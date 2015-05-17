@@ -87,3 +87,14 @@ setenv OMP_DYNAMIC TRUE
 ```
 setenv OMP_NESTED TRUE
 ```
+#### **OMP_STACKSIZE**
+
+```
+setenv OMP_STACKSIZE 2000500B
+setenv OMP_STACKSIZE "3000 k "
+setenv OMP_STACKSIZE 10M
+setenv OMP_STACKSIZE " 10 M "
+setenv OMP_STACKSIZE "20 m "
+setenv OMP_STACKSIZE " 1G"
+setenv OMP_STACKSIZE 20000 
+```
