@@ -105,8 +105,6 @@ setenv OMP_STACKSIZE 20000
 Будет установлен размер стека равный 20000 килобайтам.
 
 
-
-
 ```
 setenv OMP_STACKSIZE 2000500B
 setenv OMP_STACKSIZE "3000 k "
@@ -117,6 +115,16 @@ setenv OMP_STACKSIZE " 1G"
 setenv OMP_STACKSIZE 20000 
 ```
 #### **OMP_WAIT_POLICY**
+
+Переменная окружения специфицирует поведение потоков при ожидании работы. 
+
+Примеры установки переменной:
+```
+setenv OMP_WAIT_POLICY ACTIVE
+setenv OMP_WAIT_POLICY active
+setenv OMP_WAIT_POLICY PASSIVE
+setenv OMP_WAIT_POLICY passive 
+```
 
 
 #### **OMP_MAX_ACTIVE_LEVELS**
