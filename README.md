@@ -13,8 +13,7 @@
 
 
 
-![](http://habrastorage.org/files/3bf/d95/694/3bfd9569429642b7bd3f299f761befdb.jpg)
-
+![](6-openmp-2-1024.jpg)
 ##### Показания к применению:
 
 
