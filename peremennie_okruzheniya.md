@@ -104,7 +104,6 @@ setenv OMP_STACKSIZE 20000
 ```
 Будет установлен размер стека равный 20000 килобайтам.
 
-
 ```
 setenv OMP_STACKSIZE 2000500B
 setenv OMP_STACKSIZE "3000 k "
