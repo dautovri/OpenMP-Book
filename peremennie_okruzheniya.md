@@ -104,6 +104,7 @@ setenv OMP_STACKSIZE 20000
 ```
 Будет установлен размер стека равный 20000 килобайтам.
 
+Если OMP_STACKSIZE не установлен, он определяется реализацией OpenMP.
 ```
 setenv OMP_STACKSIZE 2000500B
 setenv OMP_STACKSIZE "3000 k "
