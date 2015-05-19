@@ -117,6 +117,8 @@ setenv OMP_STACKSIZE " 1G"
 setenv OMP_STACKSIZE 20000 
 ```
 #### **OMP_WAIT_POLICY**
+
+
 #### **OMP_MAX_ACTIVE_LEVELS**
 #### **OMP_CANCELLATION**
 #### **OMP_DISPLAY_ENV**
