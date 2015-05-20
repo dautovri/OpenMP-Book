@@ -13,7 +13,7 @@
 | OMP_PROC_BIND |  TRUE FALSE | FALSE |
 | OMP_PLACES | порядок размещения | - |
 | OMP_CANCELLATION |  TRUE FALSE | FALSE |
-| OMP_DISPLAY_ENV|  TRUE FALSE | FALSE |
+| OMP_DISPLAY_ENV|  TRUE FALSE VERBOSE| FALSE |
 | OMP_DEFAULT_DEVICE| неотрицательное целое | - |
 
 
@@ -141,3 +141,8 @@ setenv OMP_WAIT_POLICY passive
 
 #### **OMP_CANCELLATION**
 #### **OMP_DISPLAY_ENV**
+
+```
+setenv OMP_DISPLAY_ENV TRUE
+```
+
