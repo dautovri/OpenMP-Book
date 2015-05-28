@@ -151,6 +151,28 @@ setenv OMP_WAIT_POLICY passive
 
 **TRUE | FALSE | VERBOSE ** 
 
+При установленном значении **TRUE** специфицирует вывод информации о номере версии OpenMP и значения переменных окружения.  **VERBOSE** отображает переменные которые могут быть изменены производителем. В **FALSE** не будет выведена информация о переменных окружения. Отображение информации начинается с подобного заголовка:
+
+
+```
+OPENMP DISPLAY ENVIRONMENT BEGIN
+OMP_DISPLAY_ENV='TRUE'
+  _OPENMP='201106'
+   OMP_DYNAMIC='FALSE'
+   OMP_MAX_ACTIVE_LEVELS='5'
+   OMP_NESTED='FALSE'
+   OMP_NUM_THREADS='64'
+   OMP_PLACES='{0,1},{2,3},{4,5},{6,7},{8,9},{10,11},{12,13},
+   {14,15},{16,17},{18,19},{20,21},{22,23},{24,25},{26,27},
+   {28,29},{30,31},{32,33},{34,35},{36,37},{38,39},{40,41},
+   {42,43},{44,45},{46,47},{48,49},{50,51},{52,53},{54,55},
+   {56,57},{58,59},{60,61},{62,63}'
+  OMP_PROC_BIND='FALSE' 
+  OMP_SCHEDULE='STATIC,0'
+  OMP_STACKSIZE='4194304'
+  OMP_THREAD_LIMIT='64'
+  OMP_WAIT_POLICY='PASSIVE'
+ OPENMP DISPLAY ENVIRONMENT END```
 
 
 Пример:
