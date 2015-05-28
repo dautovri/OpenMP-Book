@@ -151,6 +151,9 @@ setenv OMP_WAIT_POLICY passive
 
 **TRUE | FALSE | VERBOSE ** 
 
+
+
+Пример:
 ```
 setenv OMP_DISPLAY_ENV TRUE
 ```
