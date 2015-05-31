@@ -47,4 +47,3 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n);
 ```
 
 
-Парадигма SIMD – single instruction multiple data (одна инструкция множество данных).
