@@ -16,34 +16,6 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n);
 Спецификаторы, применённые к параметрам функции копирования, обозначают , что эти области памяти ptr1 и ptr2 не пересекаются. 
 
 
-```
 
-#pragma omp simd 
-```
-Клаузы:
-* safelen(длина)
-* linear(список[:шаг])
-* aligned(список[:выравнивание])
-* private(список)
-* lastprivate(список)
-* reduction(операция:список)
-* collapse(n)
-
-
-```
-#pragma omp declare simd
-```
-
-Клаузы:
-* simdlen(длина)
-* linear(список[:шаг])
-* aligned(список[:выравнивание])
-* uniform(список)
-* inbranch
-* notinbranch
-
-```
-#pragma omp parallel for simd
-```
 
 
