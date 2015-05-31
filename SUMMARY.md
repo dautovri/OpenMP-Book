@@ -18,6 +18,7 @@
 * [Глава 4](glava4/glava_4.md)
    * [Векторизация](glava4/vektorizatsiya.md)
    * [SIMD](glava4/simd.md)
+   * Помощь векторизации
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
