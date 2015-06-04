@@ -16,7 +16,6 @@
    * [proc_bind](glava3/proc_bind.md)
    * [sections single](glava3/sections.md)
 * [Глава 4](glava4/glava_4.md)
-   * [Векторизация](glava4/vektorizatsiya.md)
    * [SIMD](glava4/simd.md)
    * [Помощь векторизации](pomosch_vektorizatsii.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
