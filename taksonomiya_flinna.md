@@ -5,6 +5,8 @@
 
 
 Single Instruction Multiple Data (SIMD)
+
+
 ![](SIMD.png)
 
 
