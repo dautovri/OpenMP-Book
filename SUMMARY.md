@@ -4,7 +4,7 @@
 * [Глава 1](glava1/glava_1.md)
    * [Стратегии](glava1/strategii.md)
    * [Механизмы](glava1/mehanizmi.md)
-   * Таксономия Флинна
+   * [Таксономия Флинна](taksonomiya_flinna.md)
    * [Аппаратная часть](glava1/apparatnaya_chast.md)
    * [Теория производительности](glava1/teoriya_proizvoditelnosti.md)
 * [Глава 2](glava2/glava_2.md)
