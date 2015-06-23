@@ -29,7 +29,7 @@ void star( double *a, double *b, double *c, int n, int *ioff )
 ```
 
 
-
+---
 
 
 ```
@@ -58,6 +58,19 @@ for( i=0 ; i < N ; i++ )
 ```
 
 
+---
+
+
+
 ```
 #pragma omp parallel for simd
 ```
+```
+  #pragma omp parallel for simd schedule(static,10)
+  for (i=0; i<N; i++) 
+  { 
+    a[i] = b[i] * c[i]; 
+  }
+
+```
+
