@@ -18,6 +18,21 @@
 
 
 ```
+void star( double *a, double *b, double *c, int n, int *ioff )
+{
+    int i;
+    #pragma omp simd
+    for ( i = 0; i < n; i++ )
+    a[i] *= b[i] * c[i+ *ioff];
+ }
+
+```
+
+
+
+
+
+```
 #pragma omp declare simd
 ```
 
@@ -28,6 +43,20 @@
 * uniform(список)
 * inbranch
 * notinbranch
+
+```
+#pragma omp declare simd
+float foo(float *B, float *C, int i)
+{
+	return B[i] + C[i];
+}
+for( i=0 ; i < N ; i++ )
+{
+	A[i] = foo(B, C, i);
+}
+
+```
+
 
 ```
 #pragma omp parallel for simd
