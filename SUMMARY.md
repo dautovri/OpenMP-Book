@@ -6,6 +6,7 @@
    * [Механизмы](glava1/mehanizmi.md)
    * [Аппаратная часть](glava1/apparatnaya_chast.md)
    * [Теория производительности](glava1/teoriya_proizvoditelnosti.md)
+   * Классификация Флина
 * [Глава 2](glava2/glava_2.md)
    * [Начало](glava2/nachalo.md)
    * [История OpenMP](glava2/istoria.md)
