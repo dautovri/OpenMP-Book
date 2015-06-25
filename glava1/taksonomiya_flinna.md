@@ -7,7 +7,7 @@
 Single Instruction Multiple Data (SIMD)
 
 
-![](SIMD.png)
+![]()
 
 
 Multiple Instruction Multiple Data (MIMD)
