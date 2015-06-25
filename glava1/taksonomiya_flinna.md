@@ -12,3 +12,4 @@ Single Instruction Multiple Data (SIMD)
 
 Multiple Instruction Multiple Data (MIMD)
 
+
