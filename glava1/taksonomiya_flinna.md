@@ -13,4 +13,4 @@ Single Instruction Multiple Data (SIMD)
 Multiple Instruction Multiple Data (MIMD)
 
 
-![](MIMD3.png)
+![](MIMD5.png)
