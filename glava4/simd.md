@@ -60,8 +60,6 @@ for( i=0 ; i < N ; i++ )
 
 ---
 
-
-
 ```
 #pragma omp parallel for simd
 ```
