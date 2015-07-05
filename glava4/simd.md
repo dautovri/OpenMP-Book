@@ -64,7 +64,7 @@ for( i=0 ; i < N ; i++ )
 #pragma omp parallel for simd
 ```
 
-
+Пример применения **simd** к циклу:
 ```
   #pragma omp parallel for simd
   for (i=0; i<N; i++) 
