@@ -60,17 +60,30 @@ void star( double *a, double *b, double *c, int n, int *ioff )
 Параметр, указанный с помощью **uniform**, является инвариантом цикла. Инвариантом одной порции, которая вызывается одновременно внутри одного simd цикла. Для простоты восприятия приведем пример:
 
 ```
-#pragma omp parallel for reduction(+:tmp)
- for (i=0; i < N; i++)
- {
-    float tmp1 = 0.0;
+#pragma omp declare simd uniform(i) linear(k) notinbranch
+float P(const int i, const int k)
+{
+ return Q[i][k] * Q[k][i];
+}
+
+float accum(void)
+{
+ float tmp = 0.0;
+ int i, k;
+    #pragma omp parallel for reduction(+:tmp)
+    for (i=0; i < N; i++)
+    {
+        float tmp1 = 0.0;
         #pragma omp simd reduction(+:tmp1)
         for (k=0; k < M; k++) 
         {
-         tmp1 += P(i,k);
+            tmp1 += P(i,k);
         }
     tmp += tmp1;
- }
+    }
+ return tmp;
+C/C++
+}
 ```
 
 К примеру, когда базовый адрес   
