@@ -82,7 +82,6 @@ float accum(void)
     tmp += tmp1;
     }
  return tmp;
-
 }
 ```
 
