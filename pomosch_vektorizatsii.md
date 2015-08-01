@@ -22,3 +22,6 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n);
 Спецификаторы, применённые к параметрам функции копирования, обозначают , что эти области памяти ptr1 и ptr2 не пересекаются. 
  
 
+## Выравнивание данных 
+
+http://konishchevdmitry.blogspot.ru/2010/01/blog-post.html
