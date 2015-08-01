@@ -24,4 +24,5 @@ void * memcpy (void * restrict ptr1, void * restrict ptr2, size_t n);
 
 ## Выравнивание данных 
 
-http://konishchevdmitry.blogspot.ru/2010/01/blog-post.html
+
+Оперирование данными происходит кэш линиями по 64 байта. SSE и AVX  инструкции всегда попадают в кэш линию если данные выравнены на границу 16 или 32 байта. 
