@@ -9,8 +9,16 @@
 [Github](https://github.com/dautov2/OpenMP-Book)  
 Эта книга находится в стадии разработки. Открыта для новых авторов. Мы не будем закрывать ее написание. Мы не станем требовать плату. Мы будем делать ее вместе. 
 
-Каждый кто добавит изменения будет внесен в список авторов. 
+Online: https://www.gitbook.com/read/book/dautov2/openmp-book
 
+PDF: https://www.gitbook.com/download/pdf/book/dautov2/openmp-book
+
+EPUB: https://www.gitbook.com/download/epub/book/dautov2/openmp-book
+
+MOBI: https://www.gitbook.com/download/mobi/book/dautov2/openmp-book
+
+
+Каждый кто добавит изменения будет внесен в список авторов. 
 
 
 ##### Показания к применению:
