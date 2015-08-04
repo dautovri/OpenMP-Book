@@ -47,8 +47,6 @@ void star( double *a, double *b, double *c, int n, int *ioff )
 ```
 
 
----
-
 
 ```
 #pragma omp declare simd
@@ -108,13 +106,14 @@ for( i=0 ; i < N ; i++ )
 ```
 
 
----
+####Конструкция  parallel for simd 
 
 ```
 #pragma omp parallel for simd
 ```
 
 Пример применения **simd** к циклу:
+
 ```
   #pragma omp parallel for simd
   for (i=0; i<N; i++) 
