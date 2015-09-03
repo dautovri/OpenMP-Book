@@ -23,5 +23,4 @@
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
-* [Авторы](spasibo.md)
 
