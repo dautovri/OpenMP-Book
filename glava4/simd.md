@@ -76,6 +76,7 @@ float accum(void)
 {
  float tmp = 0.0;
  int i, k;
+ 
     #pragma omp parallel for reduction(+:tmp)
     for (i=0; i < N; i++)
     {
@@ -89,6 +90,7 @@ float accum(void)
     }
  return tmp;
 }
+
 ```
 В данном примере переменная (i) является подобным инвариантом. Она не будет изменяться во время вложенного simd цикла. 
 
@@ -97,11 +99,11 @@ float accum(void)
 #pragma omp declare simd
 float foo(float *B, float *C, int i)
 {
-	return B[i] + C[i];
+    return B[i] + C[i];
 }
 for( i=0 ; i < N ; i++ )
 {
-	A[i] = foo(B, C, i);
+    A[i] = foo(B, C, i);
 }
 
 ```
