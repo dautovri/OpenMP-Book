@@ -10,7 +10,8 @@
 
 ```
 #include <omp.h>
-main()
+
+void main()
 {
  int x;
  x = 0;
