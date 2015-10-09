@@ -24,5 +24,5 @@
 * [Переменные окружения](peremennie_okruzheniya.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
 * [task](task.md)
-* Дополнительные материалы
+* [Дополнительные материалы](dopolnitelnie_materiali.md)
 
