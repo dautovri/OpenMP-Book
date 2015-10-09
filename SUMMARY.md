@@ -23,6 +23,6 @@
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
-* [Что такое Valgrind и для чего он нужен.](chtotakoe_valgrind_md.md)
+* [Что такое Valgrind и для чего он нужен.](.chto_takoe_valgrind.md/chtotakoevalgrind.md)
 * [task](task.md)
 
