@@ -19,10 +19,10 @@
 * [Глава 4](glava4/glava_4.md)
    * [SIMD](glava4/simd.md)
    * [Помощь векторизации](pomosch_vektorizatsii.md)
+* [Дополнительные материалы](dopolnitelnie_materiali.md)
 * [Типичные ошибки](tipichnie_oshibki.md)
 * [Критические секции](kriticheskie_sektsii.md)
 * [Переменные окружения](peremennie_okruzheniya.md)
 * [Что такое Valgrind и для чего он нужен.](chto_takoe_valgrind.md)
 * [task](task.md)
-* [Дополнительные материалы](dopolnitelnie_materiali.md)
 
