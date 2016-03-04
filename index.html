@@ -28,12 +28,55 @@
         </ul>
       </header>
       <section>
-        <p>OpenMP
-Мне не нужны оправдания! Я хочу мчаться в два раза быстрее, чем на одной черепахе. Именно поэтому я купил вторую.</p>
+        <h1>
+<a id="openmp" class="anchor" href="#openmp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OpenMP</h1>
 
-<p>О чем</p>
+<h4>
+<a id="Мне-не-нужны-оправдания-Я-хочу-мчаться-в-два-раза-быстрее-чем-на-одной-черепахе-Именно-поэтому-я-купил-вторую" class="anchor" href="#%D0%9C%D0%BD%D0%B5-%D0%BD%D0%B5-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B-%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%AF-%D1%85%D0%BE%D1%87%D1%83-%D0%BC%D1%87%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%B0-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%B5%D0%B5-%D1%87%D0%B5%D0%BC-%D0%BD%D0%B0-%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B5-%D0%98%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BF%D0%BE%D1%8D%D1%82%D0%BE%D0%BC%D1%83-%D1%8F-%D0%BA%D1%83%D0%BF%D0%B8%D0%BB-%D0%B2%D1%82%D0%BE%D1%80%D1%83%D1%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Мне не нужны оправдания! Я хочу мчаться в два раза быстрее, чем на одной черепахе. Именно поэтому я купил вторую.</h4>
+
+<h5>
+<a id="О-чем" class="anchor" href="#%D0%9E-%D1%87%D0%B5%D0%BC" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>О чем</h5>
 
 <p>Открытая книга по технологии OpenMP. Технология которая позволяет расспараллеливать программы хирургическим способом. Перестраивать архитектуру всего приложения вам не потребуется.</p>
+
+<h5>
+<a id="Статус-книги" class="anchor" href="#%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Статус книги</h5>
+
+<p><a href="https://github.com/dautov2/OpenMP-Book">Github</a><br>
+Эта книга находится в стадии разработки. Открыта для новых авторов. Мы не будем закрывать ее написание. Мы не станем требовать плату. Мы будем делать ее вместе. </p>
+
+<p>Online: <a href="https://www.gitbook.com/read/book/dautov2/openmp-book">https://www.gitbook.com/read/book/dautov2/openmp-book</a></p>
+
+<p>PDF: <a href="https://www.gitbook.com/download/pdf/book/dautov2/openmp-book">https://www.gitbook.com/download/pdf/book/dautov2/openmp-book</a></p>
+
+<p>EPUB: <a href="https://www.gitbook.com/download/epub/book/dautov2/openmp-book">https://www.gitbook.com/download/epub/book/dautov2/openmp-book</a></p>
+
+<p>MOBI: <a href="https://www.gitbook.com/download/mobi/book/dautov2/openmp-book">https://www.gitbook.com/download/mobi/book/dautov2/openmp-book</a></p>
+
+<p>Каждый кто добавит изменения будет внесен в список авторов. </p>
+
+<h5>
+<a id="Показания-к-применению" class="anchor" href="#%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Показания к применению:</h5>
+
+<p><strong>Целевая платформа является многопроцессорной или многоядерной</strong></p>
+
+<p>Создавая многопоточное приложение с OpenMP, получите прирост производительности на многоядерных системах.</p>
+
+<p><strong>Приложение кроссплатформенное</strong></p>
+
+<p>OpenMP кроссплатформенен с хорошо поддерживаемым API. Приложение скомпилируется если даже компилятор не имеет понятия о OpenMP стандарте.</p>
+
+<p><strong>Параллелизация циклов</strong></p>
+
+<p>OpenMP одно из лучших средств для распараллеливания циклов. Если приложение имеет циклы без зависимостей, использование OpenMP идеальное решение.</p>
+
+<p><strong>Срочная оптимизация</strong></p>
+
+<p>OpenMP не требует перестройки архитектуры приложения. Его особенность в том, что позволяет инкрементально изменять программу. Вам требуется всего лишь найти наиболее нагруженные участки кода. Далее, используя дерективы, указать какие участки кода вы хотите выполнять параллельно.</p>
+
+<p><strong>Авторы</strong></p>
+
+<p>Руслан Даутов</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/dautovri">dautovri</a></p>
