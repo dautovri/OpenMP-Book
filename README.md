@@ -19,7 +19,7 @@ EPUB: https://www.gitbook.com/download/epub/book/dautov2/openmp-book
 MOBI: https://www.gitbook.com/download/mobi/book/dautov2/openmp-book
 
 
-Каждый кто добавит изменения будет внесен в список авторов. 
+
 
 
 ##### Показания к применению:
