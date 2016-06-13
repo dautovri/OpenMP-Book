@@ -20,8 +20,6 @@ MOBI: https://www.gitbook.com/download/mobi/book/dautov2/openmp-book
 
 
 
-
-
 ##### Показания к применению:
 
 **Целевая платформа является многопроцессорной или многоядерной**
