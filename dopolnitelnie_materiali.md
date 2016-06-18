@@ -9,3 +9,5 @@
 [https://www.youtube.com/user/OpenMPARB](https://www.youtube.com/user/OpenMPARB) - Канал OpenMP ARB на youtube 
 
 [https://computing.llnl.gov/tutorials/parallel_comp/](https://computing.llnl.gov/tutorials/parallel_comp/) - Ливерморская национальная лаборатория(обучающие материалы)
+
+[https://software.intel.com/en-us/intel-parallel-studio-xe](https://software.intel.com/en-us/intel-parallel-studio-xe) - Инструмент для работы с OpenMP. 
