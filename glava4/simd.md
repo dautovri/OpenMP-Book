@@ -47,8 +47,6 @@ void star( double *a, double *b, double *c, int n, int *ioff )
 
 ```
 
-
-
 ```
 #pragma omp declare simd
 ```
