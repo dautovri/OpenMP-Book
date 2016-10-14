@@ -191,7 +191,7 @@ void Transpose(FTYPE* const A, const int n, const int* const plan)
 
 }
 ```
-Второй вариант работает более чем в 2 раза быстрее на сопроцессоре Intel Xeon Phi (архитектура Intel MIC). Данная операция была исследована [Андеем Владимировым из Colfax Reseach (США) ](http://research.colfaxinternational.com/post/2013/08/12/Trans-7110.aspx)
+Второй вариант работает более чем в 2 раза быстрее на сопроцессоре Intel Xeon Phi (архитектура Intel MIC). Данная операция была исследована [Андреем Владимировым из Colfax Reseach (США) ](http://research.colfaxinternational.com/post/2013/08/12/Trans-7110.aspx)
 
 
 Ниже приведена архитектура устройства:
