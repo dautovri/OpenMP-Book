@@ -44,4 +44,17 @@ OpenMP не требует перестройки архитектуры при�
 
 Руслан Даутов
 
+## Что бы ссылатся на книгу
 
+
+
+```latex
+@misc{openmp_book,
+  author = {Даутов Руслан},
+  title = {Открытая книга по технологии OpenMP},
+  year = {2016},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/dautovri/OpenMP-Book}},
+}
+```
